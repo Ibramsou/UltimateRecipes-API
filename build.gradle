@@ -1,0 +1,17 @@
+plugins {
+    id 'java'
+}
+
+group = 'com.ultimate-recipes-api'
+version = '1.0-SNAPSHOT'
+
+repositories {
+    mavenLocal()
+    mavenCentral()
+}
+
+dependencies {
+    compileOnly 'org.spigotmc:spigot-api:1.8.8-R0.1-SNAPSHOT'
+    compileOnly 'org.jetbrains:annotations:24.0.1'
+    implementation 'com.github.cryptomorin:XSeries:13.0.0'
+}
